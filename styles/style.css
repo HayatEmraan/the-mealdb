@@ -1,0 +1,40 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25px;
+    margin-top: 2rem;
+}
+.banner-container{
+    margin-top: 18px;
+    background-image: url("../images/banner_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-content{
+    color: #FFFFFF;
+}
+.form-control{
+    width: 75% !important;
+}
+.d-flex{
+    display: flex;
+    justify-content: center !important;
+}
+.section-title-bar{
+    font-weight: 600;
+    font-size: 35px;
+}

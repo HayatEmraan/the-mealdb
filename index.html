@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Hut</title>
+    <!-- css file  -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar-item">
+            <img src="images/Tasty_HUT.png" alt="">
+            <a class="btn btn-primary rounded-lg" href="#">Sign Up</a>
+        </nav>
+        <div class="banner-container">
+            <div class="banner-section">
+                <h3 class="banner-title">Taste Our Delicious <br> Best Foods</h3>
+                <p class="banner-content">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humou.</p>
+                <div class="d-flex" role="search">
+                    <input class="form-control me-2" type="text" id="search" placeholder="Search any food">
+                    <button id="search-btn"  class="btn btn-danger rounded-lg" type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="banner-content">
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Launch static backdrop modal
+            </button> -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered text-dark">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Loading Name...</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="modal-body" class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="favourite mt-5 container">
+            <h3 class="text-center section-title-bar">Your Favourite Food</h3>
+            <div id="fav-container" class="row row-cols-2 mx-auto mt-5">               
+            </div>
+            <div class="d-flex mt-3">
+                <button class="btn btn-primary rounded-lg">Show All</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container row row-cols-4 mx-auto" style="background: rgba(255, 193, 7, 0.05);">
+            <div class="col-2 mt-5 container mx-auto">
+                <h3>Links</h3>
+                <div>
+                    <ul class="p-0">
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Home</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">About</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Services</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Contact</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2 mt-5 container mx-auto"> 
+                <h3>Support</h3>
+                <div>
+                    <ul class="p-0">
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Home</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">About</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Services</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Contact</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2 mt-5 container mx-auto" >
+                <h3>Resource</h3>
+                <div>
+                    <ul class="p-0">
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Home</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">About</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Services</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">Contact</a></li>
+                        <li class="list-unstyled"><a class="text-decoration-none" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4 mt-5 container mx-auto">
+                <h3>Subscribe to our newsletter</h3>
+                <p>There are many variations of passages of available, but the majority have suffered</p>
+                <input type="email" name="" id="" placeholder="Email Address">
+                <button class="border-0 btn" style="background: #FFC107; border-radius: 8px;">Submit</button>
+            </div>
+        </div>
+    </footer>
+    <script src="javascript/libs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
